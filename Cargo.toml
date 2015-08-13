@@ -1,0 +1,22 @@
+[package]
+name = "rendering_test"
+version = "0.0.1"
+authors = [ "Your name <you@example.com>" ]
+
+[dependencies]
+time = "0.1"
+gtk = "*"
+# gdk = "*"
+# glib = "*"
+cairo-rs = "*"
+
+[[bin]]
+name = "rendering_test"
+
+
+# [dependencies.gtk]
+# git = "https://github.com/rust-gnome/gtk.git"
+# features = ["gtk_3_10"]
+#
+# [dependencies.cairo-rs]
+# git = "https://github.com/rust-gnome/cairo.git"
